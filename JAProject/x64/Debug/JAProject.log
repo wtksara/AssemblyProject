@@ -1,0 +1,137 @@
+﻿Build started 11.02.2021 22:03:42.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Sara\AppData\Roaming
+AVR32_HOME = C:\WinAVR-20100110
+ChocolateyInstall = C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate = 132491755240011754
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = DESKTOP-9QE6HAG
+ComSpec = C:\Windows\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\Sara
+IntelliJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;
+LOCALAPPDATA = C:\Users\Sara\AppData\Local
+LOGONSERVER = \\DESKTOP-9QE6HAG
+MGLS_LICENSE_FILE = C:\PADS_Professional_QuickStart_VX.2.7\PadsPro.dat
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\Sara\OneDrive
+OneDriveConsumer = C:\Users\Sara\OneDrive
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Sara\AppData\Local\Microsoft\WindowsApps;;E:\Programy\Microsoft VS Code\bin;C:\Users\Sara\.dotnet\tools;C:\Users\Sara\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\Sara\AppData\Local\Microsoft\VisualStudio\16.0_8dfac0be\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 5e03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+QtMsBuild = C:\Users\Sara\AppData\Local\QtMsBuild
+ServiceHubLogSessionKey = 0C65A882
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Sara\AppData\Local\Temp
+ThreadedWaitDialogDpiContext = -4
+TMP = C:\Users\Sara\AppData\Local\Temp
+USERDOMAIN = DESKTOP-9QE6HAG
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-9QE6HAG
+USERNAME = Sara
+USERPROFILE = C:\Users\Sara
+VisualStudioDir = C:\Users\Sara\Documents\Visual Studio 2019
+VisualStudioEdition = Microsoft Visual Studio Enterprise 2019
+VisualStudioVersion = 16.0
+VSAPPIDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Enterprise
+WDIR_PADSProVX_2_7 = C:\WDIR\PADSProVX.2.7
+windir = C:\Windows
+
+Logging verbosity is set to: Normal.     1>Project "C:\Users\Sara\source\repos\JAProject\JAProject.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\JAProject.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       QtVars:
+         WHERE /Q cl.exe
+         Directory "C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\temp" doesn't exist. Skipping.
+         Creating directory "C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\temp".
+         
+         ==== HostExec: Microsoft.Build.Tasks.Exec
+         WorkingDirectory: C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\temp
+         Command: ("C:/Qt/5.15.1/msvc2019_64/bin/qmake" -query) 1> props.txt
+         ("C:/Qt/5.15.1/msvc2019_64/bin/qmake" -query) 1> props.txt
+         == OK ExitCode: 0
+         
+         Reading Qt configuration (C:/Qt/5.15.1/msvc2019_64/bin/qmake)
+         
+         ==== HostExec: Microsoft.Build.Tasks.Exec
+         WorkingDirectory: C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\temp
+         Command: ("C:/Qt/5.15.1/msvc2019_64/bin/qmake" -early "CONFIG -= debug release debug_and_release" "CONFIG += debug" qtvars.pro) 1> qtvars.log 2>&1
+         ("C:/Qt/5.15.1/msvc2019_64/bin/qmake" -early "CONFIG -= debug release debug_and_release" "CONFIG += debug" qtvars.pro) 1> qtvars.log 2>&1
+         == OK ExitCode: 0
+         
+         Copying file from "C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\temp\qtvars_x64_Debug.props" to "C:\Users\Sara\source\repos\JAProject\x64\Debug\qmake\qtvars_x64_Debug.props".
+     1>Project "C:\Users\Sara\source\repos\JAProject\JAProject.vcxproj" (1) is building "C:\Users\Sara\source\repos\JAProject\JAProject.vcxproj" (1:2) on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\JAProject.tlog\unsuccessfulbuild".
+       QtRccFilterSetModified:
+       Skipping target "QtRccFilterSetModified" because it has no outputs.
+       QtRccFilter:
+       Skipping target "QtRccFilter" because it has no outputs.
+       QtQmlSetModified:
+       Skipping target "QtQmlSetModified" because it has no outputs.
+       QtQml:
+       Skipping target "QtQml" because it has no outputs.
+       QtWork:
+         uic JAProject.ui
+         rcc JAProject.qrc
+         moc JAProject.h
+          RCC: Warning: No resources in 'C:\Users\Sara\source\repos\JAProject\JAProject.qrc'.
+          C:\Users\Sara\source\repos\JAProject\JAProject.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+          C:\Users\Sara\source\repos\JAProject\JAProject.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget2'.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /Ix64\Debug\uic /Ix64\Debug\moc /I..\CLib /IC:\Qt\5.15.1\msvc2019_64\include /IC:\Qt\5.15.1\msvc2019_64\include\QtWidgets /IC:\Qt\5.15.1\msvc2019_64\include\QtGui /IC:\Qt\5.15.1\msvc2019_64\include\QtANGLE /IC:\Qt\5.15.1\msvc2019_64\include\QtCore /I/include /I"C:\Qt\5.15.1\msvc2019_64\mkspecs\win32-msvc" /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt password.cpp readwrite.cpp timecal.cpp JAProject.cpp main.cpp
+         password.cpp
+         readwrite.cpp
+         timecal.cpp
+         JAProject.cpp
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /Ix64\Debug\uic /Ix64\Debug\moc /IC:\Users\Sara\source\repos\JAProject\ /I..\CLib /IC:\Qt\5.15.1\msvc2019_64\include /IC:\Qt\5.15.1\msvc2019_64\include\QtWidgets /IC:\Qt\5.15.1\msvc2019_64\include\QtGui /IC:\Qt\5.15.1\msvc2019_64\include\QtANGLE /IC:\Qt\5.15.1\msvc2019_64\include\QtCore /I/include /I"C:\Qt\5.15.1\msvc2019_64\mkspecs\win32-msvc" /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt x64\Debug\rcc\qrc_JAProject.cpp x64\Debug\moc\moc_JAProject.cpp
+         qrc_JAProject.cpp
+         moc_JAProject.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sara\source\repos\JAProject\x64\Debug\JAProject.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Widgetsd.lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Guid.lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Cored.lib C:\Qt\5.15.1\msvc2019_64\lib\qtmaind.lib shell32.lib C:\Users\Sara\source\repos\JAProject\x64\Release\AsmDLL.lib C:\Users\Sara\source\repos\JAProject\x64\Release\CLib.lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Widgetsd.lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Guid.lib C:\Qt\5.15.1\msvc2019_64\lib\Qt5Cored.lib C:\Qt\5.15.1\msvc2019_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sara\source\repos\JAProject\x64\Debug\JAProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sara\source\repos\JAProject\x64\Debug\JAProject.lib" /MACHINE:X64 x64\Debug\password.obj
+         x64\Debug\readwrite.obj
+         x64\Debug\timecal.obj
+         x64\Debug\JAProject.obj
+         x64\Debug\main.obj
+         x64\Debug\qrc_JAProject.obj
+         x64\Debug\moc_JAProject.obj
+         C:\Users\Sara\source\repos\JAProject\x64\Debug\AsmDLL.lib
+         C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.lib
+         JAProject.vcxproj -> C:\Users\Sara\source\repos\JAProject\x64\Debug\JAProject.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\JAProject.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\JAProject.tlog\JAProject.lastbuildstate".
+     1>Done Building Project "C:\Users\Sara\source\repos\JAProject\JAProject.vcxproj" (Build target(s)).
+     1>FinalizeBuildStatus:
+         Touching "x64\Debug\JAProject.tlog\JAProject.lastbuildstate".
+     1>Done Building Project "C:\Users\Sara\source\repos\JAProject\JAProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:13.47

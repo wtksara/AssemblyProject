@@ -1,0 +1,4 @@
+LIBRARY		"AsmDLL"
+EXPORTS
+asmTextCoding
+asmTextUncoding

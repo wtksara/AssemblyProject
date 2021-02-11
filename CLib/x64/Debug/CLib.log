@@ -1,0 +1,98 @@
+﻿Build started 11.02.2021 22:03:40.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Sara\AppData\Roaming
+AVR32_HOME = C:\WinAVR-20100110
+ChocolateyInstall = C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate = 132491755240011754
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = DESKTOP-9QE6HAG
+ComSpec = C:\Windows\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\Sara
+IntelliJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;
+LOCALAPPDATA = C:\Users\Sara\AppData\Local
+LOGONSERVER = \\DESKTOP-9QE6HAG
+MGLS_LICENSE_FILE = C:\PADS_Professional_QuickStart_VX.2.7\PadsPro.dat
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\Sara\OneDrive
+OneDriveConsumer = C:\Users\Sara\OneDrive
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Sara\AppData\Local\Microsoft\WindowsApps;;E:\Programy\Microsoft VS Code\bin;C:\Users\Sara\.dotnet\tools;C:\Users\Sara\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\Sara\AppData\Local\Microsoft\VisualStudio\16.0_8dfac0be\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 5e03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+QtMsBuild = C:\Users\Sara\AppData\Local\QtMsBuild
+ServiceHubLogSessionKey = 0C65A882
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Sara\AppData\Local\Temp
+ThreadedWaitDialogDpiContext = -4
+TMP = C:\Users\Sara\AppData\Local\Temp
+USERDOMAIN = DESKTOP-9QE6HAG
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-9QE6HAG
+USERNAME = Sara
+USERPROFILE = C:\Users\Sara
+VisualStudioDir = C:\Users\Sara\Documents\Visual Studio 2019
+VisualStudioEdition = Microsoft Visual Studio Enterprise 2019
+VisualStudioVersion = 16.0
+VSAPPIDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Enterprise
+WDIR_PADSProVX_2_7 = C:\WDIR\PADSProVX.2.7
+windir = C:\Windows
+
+Logging verbosity is set to: Normal.     1>Project "C:\Users\Sara\source\repos\CLib\CLib.vcxproj" on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\CLib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D CLIB_EXPORTS /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"x64\Debug\CLib.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D CLIB_EXPORTS /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"x64\Debug\CLib.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt CLib.cpp dllmain.cpp
+         CLib.cpp
+     1>C:\Users\Sara\source\repos\CLib\CLib.cpp(27,1): warning C4273: 'cppTextCoding': inconsistent dll linkage
+       C:\Users\Sara\source\repos\CLib\CLib.h(10,26): message : see previous definition of 'cppTextCoding'
+     1>C:\Users\Sara\source\repos\CLib\CLib.cpp(52,1): warning C4273: 'cppTextUncoding': inconsistent dll linkage
+       C:\Users\Sara\source\repos\CLib\CLib.h(12,26): message : see previous definition of 'cppTextUncoding'
+         dllmain.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.lib" /MACHINE:X64 /DLL x64\Debug\CLib.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\pch.obj
+            Creating library C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.lib and object C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.exp
+         CLib.vcxproj -> C:\Users\Sara\source\repos\JAProject\x64\Debug\CLib.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\CLib.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\CLib.tlog\CLib.lastbuildstate".
+     1>Done Building Project "C:\Users\Sara\source\repos\CLib\CLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\Sara\source\repos\CLib\CLib.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\Sara\source\repos\CLib\CLib.cpp(27,1): warning C4273: 'cppTextCoding': inconsistent dll linkage
+         C:\Users\Sara\source\repos\CLib\CLib.cpp(52,1): warning C4273: 'cppTextUncoding': inconsistent dll linkage
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
