@@ -15,8 +15,9 @@ If you want to encrypt the text, the user can choose the type of cipher, library
 <img src="/2.png" >
 
 In the case of multithreading, the user has the possibility to enter his own number of threads, however, any exceeding of the limit is signaled so that the user is not able to call the program for incorrect parameters. There is also an option to automatically recognize the number of threads.
-
+<img src="/4.png" >
 
 The appearance of the result files for individual operations.
 <img src="/3.png" >
 
+<img src="/5.png" >
